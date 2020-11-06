@@ -24,6 +24,10 @@ img {
 /* style */
 body {
   background: #eee;
+  background-image: url(./images/timg.jpg);
+  background-size: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .globalHeader {
   margin: 20px;
@@ -100,6 +104,7 @@ body {
   padding: 20px 0;
   position: relative;
   cursor: pointer;
+  border-radius: 50%;
 }
 .siteList .site > .logo {
   width: 64px;
@@ -116,8 +121,8 @@ body {
 }
 .siteList .site > .close {
   position: absolute;
-  right: 10px;
-  top: 5px;
+  right: 30px;
+  top: 20px;
   display: none;
   cursor: default;
 }
@@ -133,6 +138,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 20px 0;
+  border-radius: 50%;
 }
 .siteList .addButton .icon {
   width: 56px;
