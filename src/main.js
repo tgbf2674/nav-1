@@ -2,13 +2,13 @@ const $siteList = $('.siteList')
 const $lastLi =$siteList.find('li.last')
 const x = localStorage.getItem('x')
 const xObject =JSON.parse(x)
-const hashMap =xObject|| [{
+const hashMap = xObject|| [{
     logo:'A',url:'https://4399.com'
 },
 {
     logo:'B',url:'https://bilibili.com'
 }
-];
+]
 
 const simplifyUrl=(url)=>{
     return url.replace('https://','').replace('http://','').replace('www.','').replace('.com','').replace(/\/.*/,'')
