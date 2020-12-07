@@ -23,7 +23,7 @@ img {
 }
 /* style */
 body {
-  background-image: url(./images/timg.jpg);
+  background-image: url(/timg.ed0c4341.jpg);
   background-size: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -154,3 +154,6 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
