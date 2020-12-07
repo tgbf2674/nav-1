@@ -3,7 +3,7 @@ const $lastLi =$siteList.find('li.last')
 const x = localStorage.getItem('x')
 const xObject =JSON.parse(x)
 const hashMap = xObject|| [{
-    logo:'A',url:'https://4399.com'
+    logo:'Q',url:'https://qq.com'
 },
 {
     logo:'B',url:'https://bilibili.com'
