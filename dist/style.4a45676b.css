@@ -23,8 +23,8 @@ img {
 }
 /* style */
 body {
-  background-image: url(timg.464bc1ff.jpg);
-  background-size: 100vw;
+  background: no-repeat url(timg.464bc1ff.jpg);
+  background-size: auto auto;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -92,7 +92,7 @@ body {
   }
 }
 .siteList .site {
-  width: 160px;
+  width: 129px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +131,7 @@ body {
 .siteList .addButton {
   border: 1px solid #ddd;
   background: white;
-  width: 160px;
+  width: 129px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,4 +156,4 @@ body {
 }
 
 
-/*# sourceMappingURL=style.e1fc7666.css.map */
+/*# sourceMappingURL=style.4a45676b.css.map */

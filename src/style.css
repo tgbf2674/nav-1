@@ -23,8 +23,8 @@ img {
 }
 /* style */
 body {
-  background-image: url(./images/timg.jpg);
-  background-size: 100vw;
+  background: no-repeat url(./images/timg.jpg);
+  background-size: auto auto;
   overflow-x: hidden;
   overflow-y: hidden;
 }
